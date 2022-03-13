@@ -1,1 +1,4 @@
 .DS_Store
+*.png
+*.csv
+lib/__pycache__/data_augmentation_utils.cpython-38.pyc
