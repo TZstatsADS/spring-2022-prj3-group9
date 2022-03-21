@@ -5,13 +5,13 @@
 
 Term: Spring 2022
 
-+ Team ##
++ Team 9
 + Team members
-	+ team member 1
-	+ team member 2
-	+ team member 3
-	+ team member 4
-	+ team member 5
+	+ Du, Christie cd3250@columbia.edu 
+	+ Liu, Fucheng fl2564@columbia.edu
+	+ Naik, Vaishak vvn2107@columbia.edu
+	+ Xia, Yiming yx2686@columbia.edu
+	+ Zeng, Shanyue sz2896@columbia.edu
 
 + Project summary: In this project, we created ...
 	
