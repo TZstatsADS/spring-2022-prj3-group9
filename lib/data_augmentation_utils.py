@@ -54,22 +54,12 @@ def color(img):
     color_img = aug.augment_image(img)
     return color_img
 
+def augment_clean(image):
+  flipped = flip(image)
+  rotated = rotate(image)
+  distorted = distort(image)
+  contrasted = brightness(image)
+  colored = color(image)
 
-'''image = imageio.imread("../data/train_data/images/00001.png")
-ia.imshow(image)
-
-flip_image = flip(image)
-ia.imshow(flip_image)
-
-rotated1 = rotate(image)
-ia.imshow(rotated1)
-
-distorted1 = distort(image)
-ia.imshow(distorted1)
-
-light = brightness(image)
-ia.imshow(light)
-
-colored = color(image)
-ia.imshow(colored)'''
+  return flipped, rotated, distorted, contrasted, colored
 

@@ -1,4 +1,6 @@
 .DS_Store
 *.png
 *.csv
+*.npy
 lib/__pycache__/data_augmentation_utils.cpython-38.pyc
+doc/.ipynb_checkpoints/main-checkpoint.ipynb
