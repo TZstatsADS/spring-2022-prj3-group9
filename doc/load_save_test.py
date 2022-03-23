@@ -12,7 +12,7 @@ import sys
 
 # assumes data is in data folder
 img_path = sys.argv[1]
-n_img = sys.argv[2]
+n_img = int(sys.argv[2])
 
 root = '../data/'
 img_folder = root + img_path + '/'
