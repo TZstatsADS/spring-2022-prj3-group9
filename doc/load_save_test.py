@@ -27,7 +27,7 @@ for i in range(n_img):
     imgs[i,:,:,:]=cv2.cvtColor(cv2.imread(img_fn),cv2.COLOR_BGR2RGB)
 
     
-print("Completed data loading.........")
+print("\nCompleted data loading.........")
 
 np.save('../output/test_imgs.npy', imgs)
 
