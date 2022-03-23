@@ -23,6 +23,17 @@ In this project, we created two predictive models for image classification for t
 + Xia, Yiming: CNN research, baseline model testing, model 1+2 runtime test on free colab GPU, model_doc.pdf, presentation
 + Zeng, Shanyue: CNN, image classification, and noisy data research, model1 development (alternative_model.ipynb), training, testing, and finetuning, model 2 development, model_doc.pdf, presentation
 
+**Computing, Data Parsing**
+All model development and training were performed on Google Colab. Both CPU and GPU runtime on the free version of Colab were used. Data was processed locally using the scripts: `load_save_data.py` and `load_save_test.py` then uploaded to Google Drive. To parse the training images and labels in npy files to upload to Google drive, run:
+
+```
+python load_save_data.py
+``` 
+To parse the testing images, run:
+```
+python load_save_test.py <DATA_DIR> <N_IMGS>
+```
+
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is organized as follows.
 
 ```
