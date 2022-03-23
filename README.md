@@ -23,7 +23,7 @@ In this project, we created two predictive models for image classification for t
 + Xia, Yiming: CNN research, baseline model testing, model 1+2 runtime test on free colab GPU, model_doc.pdf, presentation
 + Zeng, Shanyue: CNN, image classification, and noisy data research, model1 development (alternative_model.ipynb), training, testing, and finetuning, model 2 development, model_doc.pdf, presentation
 
-Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
+Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is organized as follows.
 
 ```
 proj/
