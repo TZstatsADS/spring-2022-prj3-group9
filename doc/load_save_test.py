@@ -12,12 +12,10 @@ import sys
 
 # assumes data is in data folder
 img_path = sys.argv[1]
-label_path = sys.argv[2]
-n_img = sys.argv[3]
+n_img = sys.argv[2]
 
 root = '../data/'
 img_folder = root + img_path + '/'
-label_folder = root + label_path + '/'
 
 print('Beginning.........')
 
@@ -27,13 +25,10 @@ for i in range(n_img):
       print('.', end='')
     img_fn = img_folder+f'test{i+1:05d}.png'
     imgs[i,:,:,:]=cv2.cvtColor(cv2.imread(img_fn),cv2.COLOR_BGR2RGB)
-    
-# load the labels
-labels = np.genfromtxt(label_folder, delimiter=',', dtype="int8")
+
     
 print("Completed data loading.........")
 
 np.save('../output/test_imgs.npy', imgs)
-np.save('../output/test_labels.npy', labels)
 
 print("Saved data + Finished.........")
