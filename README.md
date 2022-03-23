@@ -26,6 +26,11 @@ To parse the testing images, run:
 python load_save_test.py <DATA_DIR> <N_IMGS>
 ```
 
++ Pretrained models:
+	+ `baseline.sav`
+	+ `model1_final.h5`
+	+ `model2_final.h5`
+
 **Contribution statement**:
 + Du, Christie: Data augmentation, data processing scripts, image classification research, model1 and model2 development, finetuning, training, and saving, baseline model testing, model idea merging in main.ipynb, model_doc.pdf, presentation
 + Liu, Fucheng: Noisy data research, model 1+2 runtime test on CPU
