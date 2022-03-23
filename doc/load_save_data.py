@@ -8,7 +8,9 @@ Created on Sun Mar 20 18:40:16 2022
 
 import numpy as np
 import cv2
+import sys
 
+sys.path.insert(1, '../lib')
 from data_augmentation_utils import augment_clean
 
 train_images = '../data/train_data/images/'
